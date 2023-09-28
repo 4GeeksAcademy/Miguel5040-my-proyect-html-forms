@@ -1,0 +1,66 @@
+.contenedor-principal{
+    border: 1px solid rgb(185, 184, 184);
+}
+
+header{
+    height: 50px;
+    background-color: rgb(240, 238, 238);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    border: 1px solid lightgray;
+    border-bottom: none;
+}
+
+
+.money-input::before{
+    content: "$";
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+footer{
+    background-color: rgb(240, 238, 238);
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-top: none;
+}
+
+footer button{
+    margin: 0 3px;
+}
+
+.tarjetas{
+    background-color: lightgray;
+    padding: 5px;
+    position: absolute;
+}
+
+.imagen-tarjeta{
+    width: 30px;
+    height: auto;
+}
+
+#tarjeta-amex{
+    width: 20px;
+    height: auto;
+}
+
+
+input{
+    border: 1px solid rgb(185, 184, 184) !important;
+}
+
+.form-label{
+    font-weight: 500;
+}
